@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(){
+    char loop;
+    do{
+        char name[100];
+        int age;
+        printf("\nWhat is your name? ");
+        scanf("%s",&name);
+        printf("Welcome, %s! \n\nHow old are you? ",name);
+        scanf("%d",&age);
+        if(age>18){
+            printf("You can vote\n");
+        }
+        else{
+            printf("You are too young to vote,\n try again next year maybe.\n");
+        }
+
+        printf("\n\nGo again? \nPress y to go again, else to exit: ");
+        scanf(" %c",&loop);
+        }
+
+        while(loop=='y');
+
+    return 0;
+}

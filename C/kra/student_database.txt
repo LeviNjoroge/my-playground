@@ -1,0 +1,36 @@
+---------------------------------------------------------------------- ~STUDENT DATABASE~--------------------------------------------------------------------------------         
+STUDENT NAME: levi jr. njoroge
+REGISTRATION NUMBER: IN16/00032/23
+DATE OF ADMISSION: 4/8/2023
+SCHOOL: SIST
+DEPARTMENT: Computing
+COURSE: SoEn
+=======================================================================================================
+STUDENT NAME: robinson otochi crusoe
+REGISTRATION NUMBER: IN16/00053/23
+DATE OF ADMISSION: 12/8/2023
+SCHOOL: SIST
+DEPARTMENT: COMP
+COURSE: SOEN
+=======================================================================================================
+STUDENT NAME: efkwejfweflwefwioejfwiuefhwijenfwefjkew wefjkew wefwe
+REGISTRATION NUMBER: fwef
+DATE OF ADMISSION: wef
+SCHOOL: wefw
+DEPARTMENT: ef
+COURSE: wefwefwef
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDENT NAME: wefhkewkfhwekfjwefwe fwef wefw
+REGISTRATION NUMBER: efw
+DATE OF ADMISSION: efwef
+SCHOOL: wefwef
+DEPARTMENT: we
+COURSE: ewfwef
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+STUDENT NAME: we wef ewf
+REGISTRATION NUMBER: ef
+DATE OF ADMISSION: wef
+SCHOOL: ewfe
+DEPARTMENT: wfew
+COURSE: fwef
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

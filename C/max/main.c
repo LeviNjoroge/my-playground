@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int max(int num1,int num2, int num3){
+    int max=num1;
+    if(num2>max)
+        max=num2;
+    else if (num3>max)
+        max=num3;
+    return max;
+}
+
+int main(){
+    printf("Maximum value is %d",max(12,32,11));
+    return 0;
+}

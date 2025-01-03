@@ -1,0 +1,12 @@
+CustomerName:me
+PhoneNumber:742466576
+From:from
+destination:destination
+TraveDate/Time:2024-02-2614:00:43
+=============================================
+CustomerName:you
+PhoneNumber:7564654675
+From:from
+destination:destination
+TraveDate/Time:2024-02-2614:01:08
+=============================================

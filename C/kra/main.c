@@ -1,0 +1,73 @@
+#include <stdio.h>
+
+char first_name[20];
+char last_name[20];
+char surname[20];
+char reg_no[14];
+char admission_date[10];
+char school[40];
+char department[20];
+char course_name[30];
+
+void std_rpt(){
+    printf("\n\n");
+    printf("=======================================================================================================\n");
+    printf("                                 -HARVARD UNIVERSITY OF KENYA-                                         \n");
+    printf("                                  -STUDENT ADMISSION RECEIPT-                                          \n\n");
+    printf("STUDENT NAME: %s %s %s\n",first_name,last_name,surname);
+    printf("REGISTRATION NUMBER: %s\n",reg_no);
+    printf("DATE OF ADMISSION: %s\n",admission_date);
+    printf("SCHOOL: %s\n",school);
+    printf("DEPARTMENT: %s\n", department);
+    printf("COURSE: %s\n\n",course_name);
+    printf("                               -END OF STUDENT ADMISSION RECEIPT-                                       \n");
+    printf("=======================================================================================================\n");
+}
+
+void file_dtb(){
+    FILE *file = fopen("student_database.doc", "a");
+        if (file == NULL) {
+            printf("Error opening file for writing.\n");
+            return;
+        }
+
+    fprintf(file,"STUDENT NAME: %s %s %s\n",first_name,last_name,surname);
+    fprintf(file,"REGISTRATION NUMBER: %s\n",reg_no);
+    fprintf(file,"DATE OF ADMISSION: %s\n",admission_date);
+    fprintf(file,"SCHOOL: %s\n",school);
+    fprintf(file,"DEPARTMENT: %s\n", department);
+    fprintf(file,"COURSE: %s\n",course_name);
+    fprintf(file,"-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n");
+
+    fclose(file);
+}
+
+int main(){
+    int rpt;
+    do{
+        printf("Enter first name: ");
+        scanf("%s",first_name);
+        printf("Enter last name: ");
+        scanf("%s",last_name);
+        printf("Enter surname: ");
+        scanf("%s",surname);
+        printf("Enter Registration number: ");
+        scanf("%s",reg_no);
+        printf("Enter date of admission: ");
+        scanf("%s",&admission_date);
+        printf("Enter school: ");
+        scanf("%s",school);
+        printf("Enter department: ");
+        scanf("%s",department);
+        printf("Enter course name: ");
+        scanf("%s",course_name);
+
+        std_rpt();
+        file_dtb();
+
+        printf("Go again?\n Enter 0 to continue, other to exit\n: ");
+        scanf("%d",&rpt);
+    }
+    while(rpt==0);
+    return 0;
+}
