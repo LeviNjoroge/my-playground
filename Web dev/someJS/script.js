@@ -1,14 +1,14 @@
 function submitForm() {
     let name = document.getElementById("name");
     let age = document.getElementById("age");
-    let para = document.getElementById("para");
+    let par = document.getElementById("par");
 
     if (age >= 18) {
         console.log("You are eligible to vote!");
-        para.textContent = "Hello "+name+"! You are eligible to vote!";
+        par.textContent = "Hello "+name+"! You are eligible to vote!";
     }
     else{
-        console.log("Unfortunately, you are too young to vote.");
-        para.textContent = "Hello "+name+"! Unfortunately, you are too young to vote.";
+        console.log("Unfortunately, you are not eligible to vote!");
+        par.textContent = "Hello "+name+"! Unfortunately, you are not eligible to vote!";
     }
 }
