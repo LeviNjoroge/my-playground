@@ -1,0 +1,59 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Styling for the video */
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Sends the video behind other content */
+}
+
+/* Styling for the #movingButton */
+#movingButton {
+    height: 10px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(145deg, #4CAF50, #45a049);
+    color: rgb(251, 255, 0);
+    border: 2px solid #4CAF50;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 6px 24px rgba(0, 0, 0, 0.19);
+}
+
+/* Hover effect */
+#movingButton:hover {
+    background: linear-gradient(145deg, #45a049, #4CAF50);
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3), 0 8px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Active effect */
+#movingButton:active {
+    background: linear-gradient(145deg, #3e8e41, #45a049);
+    transform: scale(1) rotate(0deg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus effect */
+#movingButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(72, 145, 66, 0.6);
+}
