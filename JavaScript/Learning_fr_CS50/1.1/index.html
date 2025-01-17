@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS50 - 1.1</title>
     <script>
-        alert("Hello World")
+        function hello() {
+            
+            const heading = document.querySelector('h1');
+            heading.innerHTML === 'Goodbye'? heading.innerHTML = 'Hello' :  heading.innerHTML = 'Goodbye';
+
+            // if(document.querySelector('h1').innerHTML == 'Hello'){
+            // document.querySelector('h1').innerHTML = 'Goodbye'
+            // }
+            // else{
+            //     document.querySelector('h1').innerHTML = 'Hello'
+            // }
+        }
     </script>
 </head>
 <body>
     <h1>Hello</h1>
+    <button onclick="hello()">Click me</button>
 </body>
 </html>
