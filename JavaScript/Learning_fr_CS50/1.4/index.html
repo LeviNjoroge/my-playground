@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            const greeting = document.querySelector("h1");
+            document.querySelector("#red").addEventListener("click", function(){
+                greeting.style.color = 'red';
+            })
+            document.querySelector("#blue").addEventListener("click", function(){
+                greeting.style.color = 'blue';
+            })
+            document.querySelector("#green").addEventListener("click", function(){
+                greeting.style.color = 'green';
+            })
+        }
+        )
+    </script>
+</head>
+<body>
+    <h1>Hello!</h1>
+    <button id="red">Red</button>
+    <button id="blue">Blue</button>
+    <button id="green">Green</button>
+    
+</body>
+</html>
