@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Counter</title>
+</head>
+<body>
+    <h1>0</h1>
+    <button>Count</button>
     <script>
-
         let count = 0;
-
+        const button = document.querySelector('button');
+        const hero = document.querySelector('h1');
         function counter(){
             count++;
-            const hero = document.querySelector('h1');
             hero.innerHTML = count;
             if(count % 10 == 0){
                 alert(`The count is now ${count}`);
             }
         }
+        button.onclick = counter;
     </script>
-</head>
-<body>
-    <h1>0</h1>
-    <button onclick="counter()">Count</button>
 </body>
 </html>
