@@ -137,7 +137,7 @@
 {
     function outerFuction(){
 
-        var name = "Brian";
+        let name = "Brian";
         
         function innerFunction(){
             var age = 18;
@@ -150,3 +150,31 @@
     outerFuction();
     
 }
+
+{
+    function Human(name){
+        const sayHi = () => {
+            console.log(`Hello ${name}`);
+        }
+        const sayHowYouFeel = () => {
+            console.log(`${name} is feeling good!`);
+        }
+        return {
+            sayHi,
+            sayHowYouFeel
+        }
+    }
+    const qoli = Human("Qoli");
+    qoli.sayHi();
+    qoli.sayHowYouFeel();
+}
+
+// {
+//     function q(limit){
+//         for(let i = 0; i<=limit; i++){
+//             setInterval(() => console.log(i), i*1000);
+//         }
+//     }
+// }
+
+setTimeout(() => {for(let i = 0; i<=5;i++){console.log(i)}},6000);
