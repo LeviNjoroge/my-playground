@@ -169,12 +169,10 @@
     qoli.sayHowYouFeel();
 }
 
-// {
-//     function q(limit){
-//         for(let i = 0; i<=limit; i++){
-//             setInterval(() => console.log(i), i*1000);
-//         }
-//     }
-// }
-
-setTimeout(() => {for(let i = 0; i<=5;i++){console.log(i)}},6000);
+{
+    function q(limit){
+        for(let i = 0; i<=limit; i++){
+            setInterval(() => console.log(i), i*1000);
+        }
+    }
+}
