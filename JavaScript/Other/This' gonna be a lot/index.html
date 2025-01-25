@@ -7,8 +7,21 @@
 </head>
 <body>
     <h1>JavaScript Tasks</h1>
-    <p>Open the console to see the output.</p>
+    <p>The results from the colsole are as follows:</p>
     <div id="console-output"></div>
+    <script>
+        // Overwrite the original console.log function
+        const originalConsoleLog = console.log; 
+
+        console.log = function(...args) {
+        // Call the original console.log for regular console behavior
+        originalConsoleLog.apply(console, args); 
+
+        // Append the output to the HTML element
+        const outputDiv = document.getElementById('console-output');
+        outputDiv.innerHTML += args.join(' ') + '<br>'; 
+        };
+    </script>
     <script src="main.js"></script>
 </body>
 </html>
