@@ -84,6 +84,7 @@
     console.log(add(10,20));
 }
 
+// Classes and Objects
 {
     class Vehicle {
         constructor(name, year, model) {
@@ -91,10 +92,37 @@
             this.year = year;
             this.model = model;
         }
-        hoot(){
-            return `Hoot! Hoot! I am a ${this.name}`
+        hoot(times){
+            for(let i = 0; i<times; i++){
+                console.log( `Hoot! Hoot! I am a ${this.name} ${this.model}`);
+            }
         }
     }
     let tesla = new Vehicle("Tesla", 2024, "Model Y");
-    console.log(tesla.hoot());
+    let lambo = new Vehicle("Lamborghini", 2023, "Huracan");
+    tesla.hoot(7);
+    lambo.hoot(5);
+}
+
+// Arrow functions
+{
+    console.log("Arrow function:");
+    const substract = (num1, num2) => {
+        return num1 - num2;
+    }
+    console.log(substract(10, 5));
+}
+
+{
+    let multipy = (num1, num2) => num1 * num2;
+    console.log(multipy(8, 5));
+}
+
+{
+    const lovePizza = (times) => {
+        for(let i = 0; i<times; i++){
+            console.log("I love Pizza");
+        }
+    }
+    lovePizza(5);
 }
