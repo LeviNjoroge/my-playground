@@ -1,5 +1,6 @@
 // 1. If statements
 {
+    console.log("Result of if statement:");
     let num1 = 10;
     let num2 = 12;
 
@@ -46,4 +47,30 @@
             console.log("Invalid Day");
             break;
     }
+}
+
+// 3. For loop
+{
+    for(let i = 0; i<=10;i++){
+        console.log(i);
+    }
+}
+
+// 4. While loop
+{   
+    let i = 1;
+    while(i<=10){
+        console.log("I love JavaScript");
+        i++;
+    }
+}
+
+// 5. Do while loop
+{
+    let y = 0;
+    do{
+        console.log("We play cricket");
+        y++;
+    }
+    while(y < 5);
 }
