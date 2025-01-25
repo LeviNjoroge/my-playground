@@ -133,3 +133,20 @@
     }
     hello("John", 25);
 }
+
+{
+    function outerFuction(){
+
+        var name = "Brian";
+        
+        function innerFunction(){
+            var age = 18;
+            console.log(`Hello ${name}, you are ${age} years old`);
+        }
+
+        innerFunction();
+        // console.log(age);
+    }
+    outerFuction();
+    
+}
