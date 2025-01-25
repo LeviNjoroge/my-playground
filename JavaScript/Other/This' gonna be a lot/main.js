@@ -83,3 +83,18 @@
     }
     console.log(add(10,20));
 }
+
+{
+    class Vehicle {
+        constructor(name, year, model) {
+            this.name = name;
+            this.year = year;
+            this.model = model;
+        }
+        hoot(){
+            return `Hoot! Hoot! I am a ${this.name}`
+        }
+    }
+    let tesla = new Vehicle("Tesla", 2024, "Model Y");
+    console.log(tesla.hoot());
+}
