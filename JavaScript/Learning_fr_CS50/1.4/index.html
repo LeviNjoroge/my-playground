@@ -7,7 +7,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function(){
             const greeting = document.querySelector("h1");
-            document.querySelectorAll("button").forEach((button) => {
+            document.querySelectorAll("button").forEach(button => {
                 button.onclick = () => {
                     greeting.style.color = button.dataset.color;
                 }
