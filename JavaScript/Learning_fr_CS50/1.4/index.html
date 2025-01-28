@@ -7,20 +7,22 @@
     <script>
         document.addEventListener("DOMContentLoaded", function(){
             const greeting = document.querySelector("h1");
-            document.querySelectorAll("button").forEach(button => {
-                button.onclick = () => {
-                    greeting.style.color = button.dataset.color;
-                }
-            })
+            document.querySelector("select").onchange = function(){
+                greeting.style.color = this.value;
+            }
         }
         )
     </script>
 </head>
 <body>
     <h1>Hello!</h1>
-    <button data-color="red">Red</button>
-    <button data-color="blue">Blue</button>
-    <button data-color="green">Green</button>
-    
+
+    <select>
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">green</option>
+    </select>
+
 </body>
 </html>
