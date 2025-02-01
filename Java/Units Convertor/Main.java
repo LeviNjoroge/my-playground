@@ -11,7 +11,7 @@ public class Main {
         int category = input.nextInt();
         switch(category){
             case 1:
-            lenConversion();
+            System.out.println("The result is: "+lenConversion());
             break;
         }
     }
