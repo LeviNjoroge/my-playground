@@ -7,6 +7,12 @@ public class Main {
 
         System.out.println("Welcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature. ");
         int category = input.nextInt();
-        switch
+        switch(category){
+            case 1: 
+            {
+                System.out.println("Choose an option: ");
+            }
+            break;
+        }
     }
 }
