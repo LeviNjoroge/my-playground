@@ -18,7 +18,8 @@ public class Main {
 
     static double lenConversion(){
 
-        const double CENTIMETERS_TO_INCHES = 2.54;
+        final double INCHES_TO_CENTIMETERS = 2.54;
+        final double METERS_TO_FEET = 3.281;
         System.out.println("Choose an option: \n"+
                                         "1. Centimeters to meters.\n" +
                                         "2. Meters to centimeters\n" +
@@ -35,12 +36,16 @@ public class Main {
             case 2:
                 return value*100;
             case 3:
-                return value/CENTIMETERS_TO_INCHES;
+                return value/INCHES_TO_CENTIMETERS;
             case 4: 
-                return value*CENTIMETERS_TO_INCHES;
-            case
+                return value*INCHES_TO_CENTIMETERS;
+            case 5: 
+                return value*METERS_TO_FEET;
+            case 6:
+                return value/METERS_TO_FEET;
             default:
-                break;
+                System.out.println("Invalid option chosen!");
+                return 0;
                 }
     }
 }
