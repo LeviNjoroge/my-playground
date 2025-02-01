@@ -1,4 +1,4 @@
-import { API_KEY } from "./.gitignore/stuff";
+import { API_KEY } from "./.gitignore/stuff.js";
 import OpenAI from "openai"
 
 const openai = new OpenAI({
