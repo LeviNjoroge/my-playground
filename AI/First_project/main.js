@@ -35,9 +35,12 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var stuff_1 = require("./.gitignore/stuff");
-var openai_1 = require("openai");
+var stuff_1 = require("./stuff");
+var openai_1 = __importDefault(require("openai"));
 var openai = new openai_1.default({
     baseURL: "https://openrouter.ai/api/v1",
     apiKey: stuff_1.API_KEY,
@@ -48,26 +51,28 @@ var openai = new openai_1.default({
 });
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var message, responce, completion;
-        var _a;
-        return __generator(this, function (_b) {
-            switch (_b.label) {
+        var message, response, completion;
+        var _a, _b;
+        return __generator(this, function (_c) {
+            switch (_c.label) {
                 case 0:
-                    message = (_a = document.getElementById("#q")) === null || _a === void 0 ? void 0 : _a.value;
-                    responce = document.getElementById("#content");
+                    message = (_b = (_a = document.getElementById("q")) === null || _a === void 0 ? void 0 : _a.value) !== null && _b !== void 0 ? _b : "what is a tree";
+                    response = document.getElementById("content");
                     return [4 /*yield*/, openai.chat.completions.create({
                             model: "deepseek/deepseek-r1:free",
                             messages: [
                                 {
                                     "role": "user",
-                                    "content": message
+                                    "content": "What is a tree?"
                                 }
                             ]
                         })];
                 case 1:
-                    completion = _b.sent();
+                    completion = _c.sent();
                     console.log(completion.choices[0].message);
-                    responce.innerHTML = completion.choices[0].message.content;
+                    if (response && completion.choices[0].message.content) {
+                        response.innerHTML = completion.choices[0].message.content;
+                    }
                     return [2 /*return*/];
             }
         });
