@@ -17,6 +17,8 @@ public class Main {
     }
 
     static double lenConversion(){
+
+        const double CENTIMETERS_TO_INCHES = 2.54;
         System.out.println("Choose an option: \n"+
                                         "1. Centimeters to meters.\n" +
                                         "2. Meters to centimeters\n" +
@@ -32,6 +34,11 @@ public class Main {
                 return value/100;
             case 2:
                 return value*100;
+            case 3:
+                return value/CENTIMETERS_TO_INCHES;
+            case 4: 
+                return value*CENTIMETERS_TO_INCHES;
+            case
             default:
                 break;
                 }
