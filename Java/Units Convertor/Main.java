@@ -10,7 +10,22 @@ public class Main {
         switch(category){
             case 1: 
             {
-                System.out.println("Choose an option: ");
+                System.out.println("Choose an option: \n"+
+                                        "1. Centimeters to meters.\n" +
+                                        "2. Meters to centimeters\n" +
+                                        "3. Centimeters to inches.\n" +
+                                        "4. Inches to Centimeters\n" +
+                                        "5. Meters to feet\n" +
+                                        "6. Feet to Meters");
+                int option = input.nextInt();
+                switch (option) {
+                    case 1:
+                        System.out.println("Enter the value");
+                        break;
+                
+                    default:
+                        break;
+                }
             }
             break;
         }
