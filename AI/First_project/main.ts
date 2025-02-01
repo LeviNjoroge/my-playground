@@ -1,4 +1,4 @@
-import { API_KEY } from "./.gitignore/stuff.js";
+import { API_KEY } from "./.gitignore/stuff";
 import OpenAI from "openai"
 
 const openai = new OpenAI({
@@ -11,16 +11,17 @@ const openai = new OpenAI({
 })
 
 async function main() {
+  const message = (document.getElementById("#q") as HTMLInputElement)?.value;
+  const responce = (document.getElementById("#content") as HTMLInputElement);
   const completion = await openai.chat.completions.create({
     model: "deepseek/deepseek-r1:free",
     messages: [
       {
         "role": "user",
-        "content": "What is the meaning of life?"
+        "content": message
       }
     ]
   })
-
-  console.log(completion.choices[0].message)
+    console.log(completion.choices[0].message)
+    responce.innerHTML = completion.choices[0].message.content;
 }
-main()

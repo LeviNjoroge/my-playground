@@ -48,24 +48,28 @@ var openai = new openai_1.default({
 });
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var completion;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0: return [4 /*yield*/, openai.chat.completions.create({
-                        model: "deepseek/deepseek-r1:free",
-                        messages: [
-                            {
-                                "role": "user",
-                                "content": "What is the meaning of life?"
-                            }
-                        ]
-                    })];
+        var message, responce, completion;
+        var _a;
+        return __generator(this, function (_b) {
+            switch (_b.label) {
+                case 0:
+                    message = (_a = document.getElementById("#q")) === null || _a === void 0 ? void 0 : _a.value;
+                    responce = document.getElementById("#content");
+                    return [4 /*yield*/, openai.chat.completions.create({
+                            model: "deepseek/deepseek-r1:free",
+                            messages: [
+                                {
+                                    "role": "user",
+                                    "content": message
+                                }
+                            ]
+                        })];
                 case 1:
-                    completion = _a.sent();
+                    completion = _b.sent();
                     console.log(completion.choices[0].message);
+                    responce.innerHTML = completion.choices[0].message.content;
                     return [2 /*return*/];
             }
         });
     });
 }
-main();
