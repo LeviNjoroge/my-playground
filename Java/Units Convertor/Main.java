@@ -4,7 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        
+        int result = 0;
         System.out.println("Welcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature. ");
         int category = input.nextInt();
         switch(category){
@@ -20,7 +21,9 @@ public class Main {
                 int option = input.nextInt();
                 switch (option) {
                     case 1:
-                        System.out.println("Enter the value");
+                        System.out.println("Enter the value in centimeters to convert: ");
+                        int value = input.nextInt();
+                        result = value/100;
                         break;
                 
                     default:
