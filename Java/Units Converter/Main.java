@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         while (true) {
-            System.out.println("Welcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature.");
+            System.out.println("\nWelcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature.");
             int category = input.nextInt();
             System.out.println("\n");
             switch(category){
@@ -67,8 +67,8 @@ public class Main {
         final double KG_TO_LBS = 2.205;
         
         System.out.println("Select an option:\n"+
-            "1. Kilograms to Pounds"+
-            "2. Pounds to Kilograms"
+            "1. Kilograms to Pounds\n"+
+            "2. Pounds to Kilograms\n"
             );
         int option = input.nextInt();
 
