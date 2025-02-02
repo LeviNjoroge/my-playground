@@ -50,7 +50,21 @@ public class Main {
     }
 
     static double weightConvertor(){
+        final double KG_TO_LBS = 2.205;
         System.out.println("Select an option:\n"+
-            "KGs to lbs");
+            "1. Kilograms to Pounds"+
+            "2. Pounds to Kilograms"
+            );
+        int option = input.nextInt();
+        System.out.println("Enter the value to convert: ");
+        double value = 
+        switch (option) {
+            case 1:
+                
+                break;
+        
+            default:
+                break;
+        }
     }
 }
