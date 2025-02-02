@@ -5,21 +5,24 @@ public class Main {
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Welcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature. ");
-        int category = input.nextInt();
-        switch(category){
-            case 1:
-                System.out.println("The result is: "+lenConversion());
-                break;
-            case 2:
-                System.out.println("The result is: "+weightConvertor());
-                break;
-            case 3:
-                System.out.println("The result is: "+temperatureConverter());
-                break;
-            default:
-                System.out.println("Invalid option chosen!");
-                break;
+        while (true) {
+            System.out.println("Welcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature.");
+            int category = input.nextInt();
+            System.out.println("\n");
+            switch(category){
+                case 1:
+                    System.out.println("The result is: "+lenConversion());
+                    break;
+                case 2:
+                    System.out.println("The result is: "+weightConvertor());
+                    break;
+                case 3:
+                    System.out.println("The result is: "+temperatureConverter());
+                    break;
+                default:
+                    System.out.println("Invalid option chosen!");
+                    break;
+            }
         }
     }
 
@@ -71,7 +74,7 @@ public class Main {
 
         System.out.println("Enter the value to convert: ");
         double value = input.nextInt();
-        
+
         switch (option) {
             case 1:
                 return value*KG_TO_LBS;
@@ -86,10 +89,10 @@ public class Main {
     static double temperatureConverter(){
         final double Celsius_TO_Kelvins = 273.5;
         System.out.println("Select an option: \n"+
-            "1. Degree Celsius to Kelvin"+
-            "2. Kelvin to Degree Celsius"+
-            "3. Degree Celsius to Fahrenheit"+
-            "4. Fahrenheit to Degree Celsius"
+            "1. Degree Celsius to Kelvin\n"+
+            "2. Kelvin to Degree Celsius\n"+
+            "3. Degree Celsius to Fahrenheit\n"+
+            "4. Fahrenheit to Degree Celsius\n"
             );
         int option = input.nextInt();
         System.out.println("Enter the temperature value: ");
