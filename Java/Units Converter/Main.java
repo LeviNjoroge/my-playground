@@ -8,7 +8,7 @@ public class Main {
         while (true) {
             System.out.println("\nWelcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature.");
             int category = input.nextInt();
-            System.out.println("\n");
+            System.out.println("");
             switch(category){
                 case 1:
                     System.out.println("The result is: "+lenConversion());
