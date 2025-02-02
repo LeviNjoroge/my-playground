@@ -5,14 +5,18 @@ public class Main {
     static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        
-        double result = 0;
         System.out.println("Welcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature. ");
         int category = input.nextInt();
         switch(category){
             case 1:
-            System.out.println("The result is: "+lenConversion());
-            break;
+                System.out.println("The result is: "+lenConversion());
+                break;
+            case 2:
+                System.out.println("The result is: "+weightConvertor());
+                break;
+            default:
+                System.out.println("Invalid option chosen!");
+                break;
         }
     }
 
