@@ -14,6 +14,9 @@ public class Main {
             case 2:
                 System.out.println("The result is: "+weightConvertor());
                 break;
+            case 3:
+                System.out.println("The result is: "+temperatureConverter());
+                break;
             default:
                 System.out.println("Invalid option chosen!");
                 break;
@@ -24,6 +27,7 @@ public class Main {
 
         final double INCHES_TO_CENTIMETERS = 2.54;
         final double METERS_TO_FEET = 3.281;
+
         System.out.println("Select an option: \n"+
                                         "1. Centimeters to meters.\n" +
                                         "2. Meters to centimeters\n" +
@@ -32,8 +36,10 @@ public class Main {
                                         "5. Meters to feet\n" +
                                         "6. Feet to Meters");
         int option = input.nextInt();
+
         System.out.println("Enter the value to convert: ");
         double value = input.nextInt();
+        
         switch (option) {
             case 1:
                 return value/100;
@@ -87,9 +93,15 @@ public class Main {
         switch (option) {
             case 1:
                 return value + Celsius_TO_Kelvins;
-            case 
+            case 2: 
+                return value - Celsius_TO_Kelvins;
+            case 3: 
+                return (value * 9/5) + 32;
+            case 4:
+                return (value/4.5)-32;
             default:
-                throw new AssertionError();
+                System.out.println("Invalid option chosen!");
+                return 0;
         }
     }
 }
