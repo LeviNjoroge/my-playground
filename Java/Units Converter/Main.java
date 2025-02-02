@@ -72,4 +72,14 @@ public class Main {
                 return 0;
         }
     }
+
+    static double temperatureConverter(){
+        System.out.println("Select an option: \n"+
+            "1. Degree Celsius to Kelvin"+
+            "2. Kelvin to Degree Celsius"+
+            "3. Degree Celsius to Fahrenheit"+
+            "4. Fahrenheit to Degree Celsius"
+            );
+        int 
+    }
 }
