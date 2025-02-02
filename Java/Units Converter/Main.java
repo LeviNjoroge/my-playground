@@ -74,6 +74,7 @@ public class Main {
     }
 
     static double temperatureConverter(){
+        final double Celsius_TO_Kelvins = 273.5;
         System.out.println("Select an option: \n"+
             "1. Degree Celsius to Kelvin"+
             "2. Kelvin to Degree Celsius"+
@@ -84,8 +85,9 @@ public class Main {
         System.out.println("Enter the temperature value: ");
         double value = input.nextInt();
         switch (option) {
-            case :
-                return value
+            case 1:
+                return value + Celsius_TO_Kelvins;
+            case 
             default:
                 throw new AssertionError();
         }
