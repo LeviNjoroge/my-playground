@@ -24,7 +24,7 @@ public class Main {
 
         final double INCHES_TO_CENTIMETERS = 2.54;
         final double METERS_TO_FEET = 3.281;
-        System.out.println("Choose an option: \n"+
+        System.out.println("Select an option: \n"+
                                         "1. Centimeters to meters.\n" +
                                         "2. Meters to centimeters\n" +
                                         "3. Centimeters to inches.\n" +
