@@ -39,7 +39,7 @@ public class Main {
 
         System.out.println("Enter the value to convert: ");
         double value = input.nextInt();
-        
+
         switch (option) {
             case 1:
                 return value/100;
@@ -60,14 +60,18 @@ public class Main {
     }
 
     static double weightConvertor(){
+
         final double KG_TO_LBS = 2.205;
+        
         System.out.println("Select an option:\n"+
             "1. Kilograms to Pounds"+
             "2. Pounds to Kilograms"
             );
         int option = input.nextInt();
+
         System.out.println("Enter the value to convert: ");
         double value = input.nextInt();
+        
         switch (option) {
             case 1:
                 return value*KG_TO_LBS;
