@@ -80,6 +80,14 @@ public class Main {
             "3. Degree Celsius to Fahrenheit"+
             "4. Fahrenheit to Degree Celsius"
             );
-        int 
+        int option = input.nextInt();
+        System.out.println("Enter the temperature value: ");
+        double value = input.nextInt();
+        switch (option) {
+            case :
+                return value
+            default:
+                throw new AssertionError();
+        }
     }
 }
