@@ -29,7 +29,7 @@ public class Main {
                                         "6. Feet to Meters");
         int option = input.nextInt();
         System.out.println("Enter the value to convert: ");
-        int value = input.nextInt();
+        double value = input.nextInt();
         switch (option) {
             case 1:
                 return value/100;
@@ -57,14 +57,15 @@ public class Main {
             );
         int option = input.nextInt();
         System.out.println("Enter the value to convert: ");
-        double value = 
+        double value = input.nextInt();
         switch (option) {
             case 1:
-                
-                break;
-        
+                return value*KG_TO_LBS;
+            case 2:
+                return value/KG_TO_LBS;
             default:
-                break;
+                System.out.println("Invalid option chosen!");
+                return 0;
         }
     }
 }
