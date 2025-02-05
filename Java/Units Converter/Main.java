@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         while (true) {
-            System.out.println("\nWelcome to the unit converter!\nSelect category:\n1. Length. \n2. Weight. \n3. Temperature.");
+            System.out.println("\nWelcome to the unit converter!\nSelect a category:\n1. Length. \n2. Weight. \n3. Temperature.");
             int category = input.nextInt();
             System.out.println("");
             switch(category){
