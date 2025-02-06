@@ -9,7 +9,11 @@
             document.querySelector("#submit").disabled = true;
 
             document.querySelector("#addTasks").onkeyup = function () {
-                document.querySelector("#submit").disables = false;
+                if (document.querySelector("#addTasks").value.length > 0) {
+                    document.querySelector("#submit").disabled = false
+                }else{
+                    document.querySelector("#submit").disabled = true;
+                }
             }
 
             document.querySelector("form").onsubmit = function () {
@@ -19,6 +23,7 @@
                 list.innerText = task;
                 document.getElementById("Tasks").append(list); 
                 document.getElementById("addTasks").value = "";
+                document.querySelector("#submit").disabled = true;
                 return false;
         }});
     </script>
