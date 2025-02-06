@@ -4,8 +4,6 @@
     function counter(){
         count++;
         hero.innerHTML = count;
-        if(count % 10 == 0){
-            alert(`The count is now ${count}`);
-        }
     }
-    button.onclick = counter;
+
+    setInterval(counter, 1000);
