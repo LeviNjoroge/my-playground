@@ -67,8 +67,8 @@ public class Main {
         final double KG_TO_LBS = 2.205;
         
         System.out.println("Select an option:\n"+
-            "1. Kilograms to Pounds\n"+
-            "2. Pounds to Kilograms\n"
+            "1. Kilograms to Pounds.\n"+
+            "2. Pounds to Kilograms.\n"
             );
         int option = input.nextInt();
 
