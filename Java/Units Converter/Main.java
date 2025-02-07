@@ -33,7 +33,7 @@ public class Main {
 
         System.out.println("Select an option: \n"+
                                         "1. Centimeters to meters.\n" +
-                                        "2. Meters to centimeters\n" +
+                                        "2. Meters to centimeters.\n" +
                                         "3. Centimeters to inches.\n" +
                                         "4. Inches to Centimeters\n" +
                                         "5. Meters to feet\n" +
