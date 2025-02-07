@@ -57,7 +57,7 @@ public class Main {
             case 6:
                 return value/METERS_TO_FEET;
             default:
-                System.out.println("Invalid option chosen!");
+                System.out.println("Invalid selection!");
                 return 0;
                 }
     }
