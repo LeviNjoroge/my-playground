@@ -36,7 +36,7 @@ public class Main {
                                         "2. Meters to centimeters.\n" +
                                         "3. Centimeters to inches.\n" +
                                         "4. Inches to Centimeters\n" +
-                                        "5. Meters to feet\n" +
+                                        "5. Meters to feet.\n" +
                                         "6. Feet to Meters");
         int option = input.nextInt();
 
