@@ -88,7 +88,6 @@ public class UnitConvertorGUI {
             "3. Degree Celsius to Fahrenheit\n"+
             "4. Fahrenheit to Degree Celsius\n"
         ));
-        int option = input.nextInt();
         double value = Double.parseDouble(JOptionPane.showInputDialog(null, "Enter the temperature value: "));
 
         switch (option) {
