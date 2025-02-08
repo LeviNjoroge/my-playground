@@ -36,9 +36,8 @@ public class UnitConvertorGUI {
         "4. Inches to Centimeters\n" +
         "5. Meters to feet.\n" +
         "6. Feet to Meters"));
-
-        System.out.println("Enter the value to convert: ");
-        double value = Double.parseInt(JOptionPane.showInputDialog(null,
+        
+        double value = Double.parseDouble(JOptionPane.showInputDialog(null, "Enter the value to convert: "));
 
         switch (option) {
             case 1:
