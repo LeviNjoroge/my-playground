@@ -82,15 +82,15 @@ public class UnitConvertorGUI {
 
     static double temperatureConverter(){
         final double Celsius_TO_Kelvins = 273.5;
-        System.out.println("Select an option: \n"+
+        int option = Integer.parseInt(JOptionPane.showInputDialog(null, "Select an option: \n"+
             "1. Degree Celsius to Kelvin\n"+
             "2. Kelvin to Degree Celsius\n"+
             "3. Degree Celsius to Fahrenheit\n"+
             "4. Fahrenheit to Degree Celsius\n"
-            );
+        ));
         int option = input.nextInt();
-        System.out.println("Enter the temperature value: ");
-        double value = input.nextInt();
+        double value = Double.parseDouble(JOptionPane.showInputDialog(null, "Enter the temperature value: "));
+
         switch (option) {
             case 1:
                 return value + Celsius_TO_Kelvins;
