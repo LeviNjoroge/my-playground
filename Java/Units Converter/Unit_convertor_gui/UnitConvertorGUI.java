@@ -36,7 +36,7 @@ public class UnitConvertorGUI {
         "4. Inches to Centimeters\n" +
         "5. Meters to feet.\n" +
         "6. Feet to Meters"));
-        
+
         double value = Double.parseDouble(JOptionPane.showInputDialog(null, "Enter the value to convert: "));
 
         switch (option) {
@@ -62,14 +62,12 @@ public class UnitConvertorGUI {
 
         final double KG_TO_LBS = 2.205;
         
-        System.out.println("Select an option:\n"+
+        int option = Integer.parseInt(JOptionPane.showInputDialog(null, "Select an option:\n"+
             "1. Kilograms to Pounds.\n"+
             "2. Pounds to Kilograms.\n"
-            );
-        int option = input.nextInt();
+            ));
 
-        System.out.println("Enter the value to convert: ");
-        double value = input.nextInt();
+        double value = Double.parseDouble(JOptionPane.showInputDialog(null, "Enter the value to convert: "));
 
         switch (option) {
             case 1:
