@@ -3,23 +3,21 @@ import javax.swing.JOptionPane;
 
 public class UnitConvertorGUI {
     public static void main(String[] args) {
-        
+
         while (true) {
-            System.out.println("\nWelcome to the unit converter!\nSelect a unit category:\n1. Length. \n2. Weight. \n3. Temperature.");
-            int category = input.nextInt();
-            System.out.println("");
+            int category = Integer.parseInt(JOptionPane.showInputDialog(null, "Welcome to the unit converter!\nSelect a unit category:\n1. Length. \n2. Weight. \n3. Temperature."));
             switch(category){
                 case 1:
-                    System.out.println("The result is: "+lenConversion());
+                    JOptionPane.showMessageDialog(null, "The result is: "+lenConversion());
                     break;
                 case 2:
-                    System.out.println("The result is: "+weightConvertor());
+                    JOptionPane.showMessageDialog(null, "The result is: "+weightConvertor());
                     break;
                 case 3:
-                    System.out.println("The result is: "+temperatureConverter());
+                    JOptionPane.showMessageDialog(null, "The result is: "+temperatureConverter());
                     break;
                 default:
-                    System.out.println("Invalid option chosen!");
+                    JOptionPane.showMessageDialog(null, "Invalid option chosen!");
                     break;
             }
         }
@@ -30,17 +28,17 @@ public class UnitConvertorGUI {
         final double INCHES_TO_CENTIMETERS = 2.54;
         final double METERS_TO_FEET = 3.281;
 
-        System.out.println("Select an option: \n"+
-                                        "1. Centimeters to meters.\n" +
-                                        "2. Meters to centimeters.\n" +
-                                        "3. Centimeters to inches.\n" +
-                                        "4. Inches to Centimeters\n" +
-                                        "5. Meters to feet.\n" +
-                                        "6. Feet to Meters");
-        int option = input.nextInt();
+        
+        int option = Integer.parseInt(JOptionPane.showInputDialog(null, "Select an option: \n"+
+        "1. Centimeters to meters.\n" +
+        "2. Meters to centimeters.\n" +
+        "3. Centimeters to inches.\n" +
+        "4. Inches to Centimeters\n" +
+        "5. Meters to feet.\n" +
+        "6. Feet to Meters"));
 
         System.out.println("Enter the value to convert: ");
-        double value = input.nextInt();
+        double value = Double.parseInt(JOptionPane.showInputDialog(null,
 
         switch (option) {
             case 1:
