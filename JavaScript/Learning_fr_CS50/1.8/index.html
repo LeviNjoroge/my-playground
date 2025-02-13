@@ -6,13 +6,11 @@
     <title>Task 1.8</title>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const person = {name, age, gender};
-            let Lee = new person("Lee", 20, "male");
+            
+            let Lee = {name: "Lee", age: 20, gender: "male"};
 
             const li = document.createElement("li");
             li.innerHTML = Lee.name;
-            li.innerHTML = Lee.age;
-            li.innerHTML = Lee.gender;
             document.body.appendChild(li);
         });
     </script>
