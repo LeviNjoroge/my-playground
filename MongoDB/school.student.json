@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "67b73b468a233b5a454d7943"
+  },
+  "name": "SpongeBob",
+  "age": 30,
+  "gpa": 3.2,
+  "fulltime": true
+},
+{
+  "_id": {
+    "$oid": "67b73cbd8a233b5a454d794d"
+  },
+  "name": "Patrick",
+  "age": 38,
+  "gpa": 1.5,
+  "fulltime": true
+},
+{
+  "_id": {
+    "$oid": "67b73cbd8a233b5a454d794e"
+  },
+  "name": "Sandy",
+  "age": 27,
+  "gpa": 4
+},
+{
+  "_id": {
+    "$oid": "67b73cbd8a233b5a454d794f"
+  },
+  "name": "Gary",
+  "age": 18,
+  "gpa": 2.5
+},
+{
+  "_id": {
+    "$oid": "67b73db47eaca3a573469759"
+  },
+  "name": "Squidward",
+  "age": 58,
+  "gpa": 3.6,
+  "fulltime": true
+},
+{
+  "_id": {
+    "$oid": "67b73e4b7eaca3a57346975b"
+  },
+  "name": "Mr. Krabs",
+  "age": 65,
+  "gpa": 2.9,
+  "fulltime": true
+},
+{
+  "_id": {
+    "$oid": "67b73e4b7eaca3a57346975c"
+  },
+  "name": "Mrs. Krabs",
+  "age": 59,
+  "gpa": 2.1,
+  "fulltime": true
+}]
