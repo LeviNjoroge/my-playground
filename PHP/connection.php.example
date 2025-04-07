@@ -1,0 +1,15 @@
+<?php 
+    $host = "YOUR_HOST_HERE";
+    $username = "YOUR_USERNAME_HERE";
+    $password = "YOUR_PASSWORD_HERE";
+    $database = "";
+
+    $conn = mysqli_connect($host,  $username, $password, $database);
+
+    if(!$conn){
+        die ("failed to connect to database!");
+    }
+    else{
+        echo "Connection successfull!";
+    }
+?>
