@@ -17,7 +17,7 @@
         echo "In uppercase: ".strtoupper($str)."<br>";
         echo "With first letters in upper: ".ucwords($str)."<br>";
         echo "String reversed: ".strrev($str)."<br>";
-        echo "Word count of the text: ".str_word_count($str);
+        echo "Word count of the text: ".str_word_count($str)."<br>";
         ?>
     </form>
 </body>
