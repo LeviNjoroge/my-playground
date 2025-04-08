@@ -12,11 +12,12 @@
 
         <?php
         $str = $_GET["string"];
-        echo "The lenth of the text is: ".strlen($str)." characters.";
-        echo "In lower, the test is: ". strtolower($str);
-        echo "In uppercase: ".strtoupper($str);
-        echo "With first letters in upper: "
-
+        echo "The lenth of the text is: ".strlen($str)." characters. <br>";
+        echo "In lower, the test is: ". strtolower($str)."<br>";
+        echo "In uppercase: ".strtoupper($str)."<br>";
+        echo "With first letters in upper: ".ucwords($str)."<br>";
+        echo "String reversed: ".strrev($str)."<br>";
+        echo "Word count of the text: ".str_word_count($str);
         ?>
     </form>
 </body>
