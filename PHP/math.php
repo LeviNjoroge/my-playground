@@ -19,7 +19,20 @@
     <form action="">
         <label for="a">Enter the first number of the series/sequence:</label><br>
         <input type="text" name="a" id="a"> <br>
-        <label for="nth">Enter tle</label>
+        <label for="nth">Enter the last number of the series/sequence:</label> <br>
+        <input type="text" name="nth" id="nth"> <br>
+        <label for="a1">Enter the common difference series/sequence:</label> <br>
+        <input type="text" name="a1" id="a1"> <br>
+
+        <input type="submit" value="Calculate"> <br><br>
     </form>
 </body>
 </html>
+
+<?php
+    $a = isset($_GET["a"]);
+    $a1 = isset($_GET["a1"]);
+    $nth = isset($_GET["nth"]);
+
+    echo "The nth term of the AP "
+?>
