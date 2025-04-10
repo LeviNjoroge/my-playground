@@ -37,9 +37,11 @@
     $n = isset($_GET["n"]);
     $nth = isset($_GET["nth"]);
 
-    $gen_nth = $a+$d($n-1) || $nth || $nth-$d($n-1);
+    $gen_nth = $a+$d*($n-1) || $nth || $nth-$d*($n-1);
     $gen_n = ($nth - $a)/$d + 1 || $n;
+    $gen_s = ($n*(2*$a + $d*($n - 1)))/2 || $n*($a+$nth)/2;
+
     echo "The nth term of the AP is: $gen_nth";
     echo "The number of terms in the AP is: $gen_n";
-    echo "";
+    echo "The sum of $gen_n terms in the AP is: $gen_s";
 ?>
