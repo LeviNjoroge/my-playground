@@ -38,7 +38,7 @@
     $nth = isset($_GET["nth"]);
 
     $gen_nth = $a+$d*($n-1) || $nth || $nth-$d*($n-1);
-    $gen_n = ($nth - $a)/$d + 1 || $n;
+    if($d!=0){$gen_n = ($nth - $a)/$d + 1 || $n;}else{$n || 0;}
     $gen_s = ($n*(2*$a + $d*($n - 1)))/2 || $n*($a+$nth)/2;
 
     echo "The nth term of the AP is: $gen_nth";
