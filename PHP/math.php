@@ -33,9 +33,9 @@
 
 <?php
     $a = (isset($_GET["a"]))? $_GET["a"]: NULL;
-    $d = $_GET["d"];
-    $n = $_GET["n"];
-    $nth = $_GET["nth"];
+    $d = (isset($_GET["d"]))? $_GET["d"]: NULL;
+    $n = (isset($_GET["n"]))? $_GET["n"]: NULL;
+    $nth = (isset($_GET["nth"]))? $_GET["nth"]: NULL;
 
     $gen_nth = $a+$d*($n-1) || $nth || $nth-$d*($n-1);
     $gen_n = ($d!=0)? ($nth - $a)/$d + 1 || $n : $n || 0;
