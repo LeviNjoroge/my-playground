@@ -21,10 +21,10 @@
         <input type="text" name="a" id="a"> <br>
         <label for="nth">Enter the last number of the series/sequence:</label> <br>
         <input type="text" name="nth" id="nth"> <br>
-        <label for="d">Enter the common difference series/sequence:</label> <br>
-        <input type="text" name="d" id="d"> <br>
         <label for="n">Enter the number of terms:</label> <br>
         <input type="text" name="n" id="n"> <br>
+        <label for="d">Enter the common difference series/sequence:</label> <br>
+        <input type="text" name="d" id="d"> <br>
 
         <input type="submit" value="Calculate"> <br><br>
     </form>
@@ -32,16 +32,17 @@
 </html>
 
 <?php
-    $a = isset($_GET["a"]);
-    $d = isset($_GET["d"]);
-    $n = isset($_GET["n"]);
-    $nth = isset($_GET["nth"]);
+    $a = (isset($_GET["a"]))? $_GET["a"]: NULL;
+    $d = $_GET["d"];
+    $n = $_GET["n"];
+    $nth = $_GET["nth"];
 
     $gen_nth = $a+$d*($n-1) || $nth || $nth-$d*($n-1);
     $gen_n = ($d!=0)? ($nth - $a)/$d + 1 || $n : $n || 0;
+    $gen_s = ($n*(2*$a + $d*($n - 1)))/2;
     $gen_s = ($n*(2*$a + $d*($n - 1)))/2 || $n*($a+$nth)/2;
 
     echo "The nth term of the AP is: $gen_nth <br>";
     echo "The number of terms in the AP is: $gen_n <br>";
-    echo "The sum of $gen_n terms in the AP is: $gen_s <br>";
+    echo "The sum of terms in the AP is: $gen_s <br>";
 ?>
