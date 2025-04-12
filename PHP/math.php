@@ -42,7 +42,7 @@
     // $gen_s = ($n*(2*$a + $d*($n - 1)))/2;
     $gen_s = ($n*(2*$a + $d*($n - 1)))/2 || $n*($a+$nth)/2;
 
-    echo "The nth term of the AP is: $gen_nth <br>";
-    echo "The number of terms in the AP is: $gen_n <br>";
+    // echo "The nth term of the AP is: $gen_nth <br>";
+    // echo "The number of terms in the AP is: $gen_n <br>";
     echo "The sum of terms in the AP is: $gen_s <br>";
 ?>
