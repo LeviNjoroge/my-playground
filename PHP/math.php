@@ -52,9 +52,9 @@
         echo "The $n-th term of the AP is: $gen_nth <br>";
     }
 
-    // // Calculate the nth term if the nth term is given (backwards calculation)
-    // if ($nth > 0) {
-    //     $gen_n = ($nth - $a) / $d + 1;
-    //     echo "The number of terms to reach the nth term is: $gen_n <br>";
-    // }
+    // Calculate the nth term if the nth term is given (backwards calculation)
+    if ($nth > 0) {
+        $gen_n = ($nth - $a) / $d + 1;
+        echo "The number of terms to reach the nth term is: $gen_n <br>";
+    }
 ?>
