@@ -46,11 +46,11 @@
         echo "Please enter a valid number of terms (n).<br>";
     }
 
-    // // Calculate the nth term (Tn)
-    // if ($n > 0) {
-    //     $gen_nth = $a + $d * ($n - 1);
-    //     echo "The $n-th term of the AP is: $gen_nth <br>";
-    // }
+    // Calculate the nth term (Tn)
+    if ($n > 0) {
+        $gen_nth = $a + $d * ($n - 1);
+        echo "The $n-th term of the AP is: $gen_nth <br>";
+    }
 
     // // Calculate the nth term if the nth term is given (backwards calculation)
     // if ($nth > 0) {
