@@ -30,3 +30,31 @@
     </form>
 </body>
 </html>
+
+<?php
+    // Fetch form inputs using GET method
+    $a = isset($_GET["a"]) ? $_GET["a"] : 0;
+    $d = isset($_GET["d"]) ? $_GET["d"] : 0;
+    $n = isset($_GET["n"]) ? $_GET["n"] : 0;
+    $nth = isset($_GET["nth"]) ? $_GET["nth"] : 0;
+
+    // // Calculate the sum (S) of the arithmetic progression
+    // if ($n > 0) {
+    //     $gen_s = ($n * (2 * $a + $d * ($n - 1))) / 2;
+    //     echo "The sum of the first $n terms of the AP is: $gen_s <br>";
+    // } else {
+    //     echo "Please enter a valid number of terms (n).<br>";
+    // }
+
+    // // Calculate the nth term (Tn)
+    // if ($n > 0) {
+    //     $gen_nth = $a + $d * ($n - 1);
+    //     echo "The $n-th term of the AP is: $gen_nth <br>";
+    // }
+
+    // // Calculate the nth term if the nth term is given (backwards calculation)
+    // if ($nth > 0) {
+    //     $gen_n = ($nth - $a) / $d + 1;
+    //     echo "The number of terms to reach the nth term is: $gen_n <br>";
+    // }
+?>
