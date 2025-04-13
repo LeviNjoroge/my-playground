@@ -32,7 +32,7 @@
 </html>
 
 <?php
-    $a = (isset($_GET["a"]))? $_GET["a"]: NULL;
+    $a = $_GET["a"];
     $d = (isset($_GET["d"]))? $_GET["d"]: NULL;
     $n = (isset($_GET["n"]))? $_GET["n"]: NULL;
     $nth = (isset($_GET["nth"]))? $_GET["nth"]: NULL;
