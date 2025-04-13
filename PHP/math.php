@@ -38,13 +38,13 @@
     $n = isset($_GET["n"]) ? $_GET["n"] : 0;
     $nth = isset($_GET["nth"]) ? $_GET["nth"] : 0;
 
-    // // Calculate the sum (S) of the arithmetic progression
-    // if ($n > 0) {
-    //     $gen_s = ($n * (2 * $a + $d * ($n - 1))) / 2;
-    //     echo "The sum of the first $n terms of the AP is: $gen_s <br>";
-    // } else {
-    //     echo "Please enter a valid number of terms (n).<br>";
-    // }
+    // Calculate the sum (S) of the arithmetic progression
+    if ($n > 0) {
+        $gen_s = ($n * (2 * $a + $d * ($n - 1))) / 2;
+        echo "The sum of the first $n terms of the AP is: $gen_s <br>";
+    } else {
+        echo "Please enter a valid number of terms (n).<br>";
+    }
 
     // // Calculate the nth term (Tn)
     // if ($n > 0) {
