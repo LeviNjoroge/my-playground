@@ -42,7 +42,7 @@
 </html>
 
 <?php
-(isset($_GET["text"]))?$str = $_GET["text"]:"";
+$str = $_GET["text"];
 if($str === strrev($str)){
     echo "$str is a palindrome";
 }
