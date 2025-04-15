@@ -6,17 +6,43 @@
     <title>Palindrometer</title>
 </head>
 <body>
-    <h1>This is a Palindrometer</h1>
-    <form action="palindrom.php">
-        <label for="text">Enter some text to see if it's a palindrome:</label><br>
-        <input type="text" name="text" id="text"> <br>
-        <input type="submit" value="Test">
-    </form>
+<div class="palindrome-explainer">
+  <h2>🔍 Palindrome Checker (Palindrometer!)</h2>
+  
+  <div class="definition">
+    <p>A <strong>palindrome</strong> reads the same backward as forward. 
+       Ignore spaces, punctuation, and uppercase letters.</p>
+  </div>
+  
+  <div class="examples">
+    <h3>✅ Palindrome Examples:</h3>
+    <ul>
+      <li>"Madam" → "madaM" (Same backward!)</li>
+      <li>"12321" → "12321" (Numbers work too!)</li>
+    </ul>
+    
+    <h3>❌ Non-Palindrome Examples:</h3>
+    <ul>
+      <li>"Hello" → "olleH" (Not the same!)</li>
+      <li>"12345" → "54321" (Different!)</li>
+    </ul>
+  </div>
+  
+  <div class="try-it">
+    <h3>🔧 Try the Palindrometer:</h3>
+        <form action="">
+            <input type="text" >
+            <input type="text" name="text" id="text" placeholder="Type a word or number..."> <br>
+            <input type="submit" value="Check!"> <br>
+        </form>
+    <p id="result"></p>
+  </div>
+</div>
 </body>
 </html>
 
 <?php
-$str = $_GET["text"];
+$str = ;
 if($str === strrev($str)){
     echo "$str is a palindrome";
 }
