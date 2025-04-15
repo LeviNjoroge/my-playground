@@ -107,10 +107,10 @@
 <div class="palindrome-explainer">
 <h2>🔍 Palindrome Checker (Palindrometer!)</h2>
   
-<div class="definition">
-  <p>A <strong>palindrome</strong> reads the same backward as forward. 
-     Ignore spaces, punctuation, and uppercase letters.</p>
-</div>
+    <div class="definition">
+        <p>A <strong>palindrome</strong> reads the same backward as forward. 
+            Ignore spaces, punctuation, and uppercase letters.</p>
+    </div>
   
 <div class="examples">
   <h3>✅ Palindrome Examples:</h3>
