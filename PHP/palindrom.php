@@ -108,7 +108,7 @@
 <h2>🔍 Palindrome Checker (Palindrometer!)</h2>
   
     <div class="definition">
-        <p>A <strong>palindrome</strong> reads the same backward as forward. 
+        <p>A <strong>palindrome</strong> reads the same backward as forward. <br>
             Ignore spaces, punctuation, and uppercase letters. </p>
     </div>
   
