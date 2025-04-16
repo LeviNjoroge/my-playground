@@ -109,7 +109,7 @@
   
     <div class="definition">
         <p>A <strong>palindrome</strong> reads the same backward as forward. 
-            Ignore spaces, punctuation, and uppercase letters.</p>
+            Ignore spaces, punctuation, and uppercase letters. </p>
     </div>
   
 <div class="examples">
