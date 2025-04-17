@@ -16,7 +16,7 @@ SCARY_MESSAGES = [
 ]
 
 # Big list of random emojis to fill space
-EMOJIS = "🌀🍕🦄⚡🔥🌪️🎲🐉💣🍣✨🔮🌵🚀🎩🍀📦🦖🍩🌚🍄💎🎻🥨⚓🧀🎭🛸🍍👑🐙🌶️🎹🍬🪐🚪🥦🎸🍉🦊🍂🎯🐋🥝🚲🍇🦦🎨🍿🦚🌊🍹🪁🍖🎷🦴🍈🐸🎲🦩🍔🎮🦋🍯🪶🍎🐧⚖️🍥🦄🌮🎴🍜🪕🍓🦍🍞🎸🍤🦉🌵🎭🍟🦎🍷🎡🍢🐊🍭🎪🍳🦜🍦🍮🦈🍩🌪️🍧🦄🌀"
+EMOJIS = "🌀🍕🦄⚡🔥🌪️🎲🐉💣🍣✨🔮🌵🚀🎩🍀📦🦖🍩🌚🍄💎🎻🥨⚓🧀🎭🛸🍍👑🐙🌶️🎹🍬🪐🚪🥦🎸🍉🦊🍂🎯🐋🥝🚲🍇🦦🎨🍿🦚🌊🍹🪁🍖🎷🦴🍈🐸🎲🦩🍔🎮🦋🍯🪶🍎🐧⚖️🍥🦄🌮🎴🍜🪕🍓🦍🍞🎸🍤🦉🌵🎭🍟🦎🍷🎡🍢🐊🍭🎪🍮🦈🍩🌪️🍧🦄🌀"
 
 # How often to insert scary messages (every ~X characters)
 MESSAGE_FREQUENCY = 10_000  
