@@ -1,7 +1,7 @@
 <!-- 
 🟡 INTERMEDIATE LEVEL
 Multiplication Table
-Write a PHP script that prints the multiplication table of 7 from 1 to 10 using a loop.
+    Write a PHP script that prints the multiplication table of 7 from 1 to 10 using a loop.
 
 Factorial of a Number
     Write a PHP function to calculate the factorial of a given number $n = 5.
