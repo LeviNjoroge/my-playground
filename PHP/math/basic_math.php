@@ -19,6 +19,8 @@
     <title>Basic Math</title>
 </head>
 <body>
-    
+    <form action="">
+        <input type="text" name="num1" id="num1" placeholder="First ">
+    </form>
 </body>
 </html>
