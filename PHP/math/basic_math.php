@@ -21,7 +21,7 @@
 <body>
     <form action="">
         <input type="text" name="num1" id="num1" placeholder="First Number...">
-        <input type="text" name="num1" id="num1" placeholder="First Number...">
+        <input type="text" name="num2" id="num2" placeholder="First Number...">
     </form>
 </body>
 </html>
