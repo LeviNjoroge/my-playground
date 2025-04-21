@@ -20,7 +20,7 @@
 </head>
 <body>
     <form action="">
-        <input type="text" name="num1" id="num1" placeholder="First ">
+        <input type="text" name="num1" id="num1" placeholder="First Number">
     </form>
 </body>
 </html>
