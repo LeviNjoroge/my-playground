@@ -25,7 +25,12 @@
             <input type="text" name="num2" id="num2" placeholder="Second Number..."> <br>
             <input type="button" value="Perform Basic Math">
         </form>
-        
+        <?php
+            $num1 = $_GET("num1");
+            $num2 = $_GET("num2");
+            $sum = $num1 + $num2;
+            echo "$num1 + $num2 = $sum <br>";
+        ?>
     </div>
 </body>
 </html>
