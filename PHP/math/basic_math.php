@@ -26,8 +26,8 @@
             <input type="button" value="Perform Basic Math">
         </form>
         <?php
-            $num1 = $_GET("num1");
-            $num2 = $_GET("num2");
+            $num1 = $_GET["num1"];
+            $num2 = $_GET["num2"];
             echo "$num1 + $num2 =".$num1 + $num2."<br>";
         ?>
     </div>
