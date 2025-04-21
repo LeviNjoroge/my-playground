@@ -20,16 +20,17 @@
 </head>
 <body>
     <div class="basic_math">
-        <form action="">
+        <form action="" method="get">
             <input type="text" name="num1" id="num1" placeholder="First Number..."> <br>
             <input type="text" name="num2" id="num2" placeholder="Second Number..."> <br>
             <input type="button" value="Perform Basic Math">
         </form>
-        <?php
+    </div>
+</body>
+</html>
+
+<?php
             $num1 = $_GET["num1"];
             $num2 = $_GET["num2"];
             echo "$num1 + $num2 =".$num1 + $num2."<br>";
         ?>
-    </div>
-</body>
-</html>
