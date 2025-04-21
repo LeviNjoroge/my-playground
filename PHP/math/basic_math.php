@@ -28,8 +28,7 @@
         <?php
             $num1 = $_GET("num1");
             $num2 = $_GET("num2");
-            $sum = $num1 + $num2;
-            echo "$num1 + $num2 = $sum <br>";
+            echo "$num1 + $num2 =".$num1 + $num2."<br>";
         ?>
     </div>
 </body>
