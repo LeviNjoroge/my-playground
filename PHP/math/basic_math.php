@@ -19,6 +19,12 @@
     <title>Basic Math</title>
 </head>
 <body>
-
+    <div class="basic_math">
+    <form action="">
+        <input type="text" name="num1" id="num1" placeholder="First Number..."> <br>
+        <input type="text" name="num2" id="num2" placeholder="Second Number..."> <br>
+        <input type="button" value="Perform Basic Math">
+    </form>
+    </div>
 </body>
 </html>
