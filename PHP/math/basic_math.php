@@ -23,7 +23,7 @@
         <form action="" method="get">
             <input type="text" name="num1" id="num1" placeholder="First Number..."> <br>
             <input type="text" name="num2" id="num2" placeholder="Second Number..."> <br>
-            <input type="submit" value="Per">
+            <input type="submit" value="Perform basic math">
         </form>
     </div>
 </body>
