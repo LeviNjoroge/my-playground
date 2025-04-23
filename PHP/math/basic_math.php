@@ -31,10 +31,5 @@
 </html>
 
 <?php
-    $num1 = $_GET["num1"];
-    $num2 = $_GET["num2"];
-    echo "$num1 + $num2 = ".$num1 + $num2."<br>";
-    echo "$num1 - $num2 = ".$num1 - $num2."<br>";
-    echo "$num1 x $num2 = ".$num1 * $num2."<br>";
-    echo "$num1/$num2 = ".$num1 / $num2." with the remainder is: ".$num1% $num2."<br>";
+    
 ?>
