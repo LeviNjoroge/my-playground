@@ -38,5 +38,7 @@
         echo "$num1 - $num2 = ".$num1 - $num2."<br>";
         echo "$num1 x $num2 = ".$num1 * $num2."<br>";
         echo "$num1/$num2 = ".$num1 / $num2." with the remainder is: ".$num1% $num2."<br>";
+        $num1 = $num2 = 0;
+        
     }
 ?>
