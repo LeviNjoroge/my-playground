@@ -7,5 +7,9 @@
 </head>
 <body>
     <p>Hey fam today, we gonna calculate the Fibonacci Series...</p>
+    <form action="">
+        <input type="text" name="num" id="num" placeholder="Number of terms...."> <br>
+        <input type="submit" value="Calculate">
+    </form>
 </body>
 </html>
