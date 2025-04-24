@@ -15,5 +15,14 @@
 </html>
 
 <?php
-    
+    if(isset($_GET["num"])){
+        $num = $_GET["num"];
+        $first = 0;
+        $second = 1;
+        for($i=0;$i<$num;$i++){
+            $next = $first + $second;
+            echo $next."<br>";
+            
+        }
+    }
 ?>
