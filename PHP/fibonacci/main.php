@@ -6,6 +6,6 @@
     <title>Fibonacci Series</title>
 </head>
 <body>
-    
+    <p>Hey fam today, we gonna calculate the Fibonacci Series...</p>
 </body>
 </html>
