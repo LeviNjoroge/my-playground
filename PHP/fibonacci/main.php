@@ -22,7 +22,9 @@
         for($i=0;$i<$num;$i++){
             $next = $first + $second;
             echo $next."<br>";
-            
+            $first = $second;
+            $second = $next;
         }
+        echo "done!";
     }
 ?>
