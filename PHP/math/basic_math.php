@@ -40,6 +40,9 @@
         if($num2!=0){
             echo "$num1/$num2 = ".$num1 / $num2." with the remainder is: ".$num1% $num2."<br>";
         }
+        else{
+            echo "division by zero is not allowed mate";
+        }
         $num1 = $num2 = 0;
         
     }
