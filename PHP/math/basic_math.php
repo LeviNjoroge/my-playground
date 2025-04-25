@@ -55,5 +55,5 @@
     //area of a circle
 
 
-    //check if a number is odd or
+    //check if a number is odd or even
 ?>
