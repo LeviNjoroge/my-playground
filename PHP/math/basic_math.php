@@ -29,7 +29,7 @@
     <div class="area_of_a_circle">
         <form action="">
             <input type="number" name="radius" id="radius"> <br>
-            <input type="submit" value="Calcul">
+            <input type="submit" value="Calculate the Area!">
         </form>
     </div>
 </body>
