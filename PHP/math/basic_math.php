@@ -21,12 +21,17 @@
 <body>
     <div class="basic_math">
         <form action="" method="get">
-            <input type="text" name="num1" id="num1" placeholder="First Number..."> <br>
+            <input type="number" name="num1" id="num1" placeholder="First Number..."> <br>
             <input type="text" name="num2" id="num2" placeholder="Second Number..."> <br>
             <input type="submit" value="Perform basic math">
         </form>
     </div>
-
+    <div class="area_of_a_circle">
+        <form action="">
+            <input type="number" name="radius" id="radius"> <br>
+            <input type="submit" value="Calcul">
+        </form>
+    </div>
 </body>
 </html>
 
