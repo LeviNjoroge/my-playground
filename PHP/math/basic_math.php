@@ -54,7 +54,7 @@
 
     //area of a circle
     if($_GET["radius"]){
-
+        $radius
     }
 
     //check if a number is odd or even
