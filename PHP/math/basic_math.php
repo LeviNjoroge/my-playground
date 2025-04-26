@@ -53,7 +53,7 @@
     }
 
     //area of a circle
-    if($_GET("radius")){
+    if($_GET["radius"]){
 
     }
 
