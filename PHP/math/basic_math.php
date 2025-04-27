@@ -29,12 +29,12 @@
     <div class="area_of_a_circle">
         <form action="">
             <input type="number" name="radius" id="radius"> <br>
-            <input type="submit" value="Calculate the Area!">
+            <input type="submit" value="Calculate the Area!"> <br>
         </form>
     </div>
     <div class="is_even">
         <form action="">
-            <input type="number" name="num" id="num">
+            <input type="number" name="num" id="num"> <br>
         </form>
     </div>
 </body>
