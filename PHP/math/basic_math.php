@@ -65,6 +65,13 @@
     }
 
     //check if a number is odd or even
-
+    if($_GET["num"]){
+        $num = $_GET["num"];
+        if($num%2==0){
+            echo $num." is an even number <br>";
+        }else{
+            echo $num." is an odd number <br>";
+        }
+    }
     
 ?>
