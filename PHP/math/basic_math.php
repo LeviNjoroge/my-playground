@@ -32,6 +32,11 @@
             <input type="submit" value="Calculate the Area!">
         </form>
     </div>
+    <div class="is_even">
+        <form action="">
+            <input type="number" name="num" id="num">
+        </form>
+    </div>
 </body>
 </html>
 
@@ -55,6 +60,8 @@
     //area of a circle
     if($_GET["radius"]){
         $radius = $_GET["radius"];
+        $PI = pi();
+        echo "The area of the circle is ".$radius*$radius*$PI;
     }
 
     //check if a number is odd or even
