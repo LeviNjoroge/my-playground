@@ -10,3 +10,14 @@
         Write a PHP program that takes a number $n = 1234 and returns the sum of its digits (1+2+3+4 = 10). 
 -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
