@@ -18,6 +18,8 @@
     <title>Intermediate Math</title>
 </head>
 <body>
-    
+    <div class="multiplication_table">
+        
+    </div>
 </body>
 </html>
