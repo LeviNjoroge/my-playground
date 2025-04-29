@@ -18,7 +18,7 @@
     <title>Intermediate Math</title>
 </head>
 <body>
-    Math Table
+    <!-- Multiplication Table -->
     <div class="multiplication_table">
         
     </div>
