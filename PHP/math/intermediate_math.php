@@ -28,6 +28,7 @@
 
     </div>
 
-    
+    Sum of Digits
+
 </body>
 </html>
