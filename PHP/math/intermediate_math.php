@@ -28,7 +28,8 @@
 
     </div>
 
-    Sum of Digits
+    <!-- Sum of Digits -->
+     <div class="sum_of_numbers"></div>
 
 </body>
 </html>
