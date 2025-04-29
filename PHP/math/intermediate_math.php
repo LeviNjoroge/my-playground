@@ -22,5 +22,9 @@
     <div class="multiplication_table">
         
     </div>
+
+    <div class="factorial_of_a_number">
+        
+    </div>
 </body>
 </html>
