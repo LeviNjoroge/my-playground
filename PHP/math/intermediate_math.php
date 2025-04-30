@@ -27,7 +27,17 @@
             for($i=1;$i<=10;$i++){
                 echo "7 x $i = ". 7 * $i ."<br>";
             }
+
+            // as a table
+            for($i=1;$i<=10;$i++){
+                echo 
+            }
         ?>
+        <table>
+            <tbody>
+                tr
+            </tbody>
+        </table>
     </div>
 
     <!-- Factorial of a Number -->
