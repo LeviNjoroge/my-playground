@@ -21,7 +21,12 @@
     <!-- Multiplication Table -->
     <!-- Write a PHP script that prints the multiplication table of 7 from 1 to 10 using a loop. -->
     <div class="multiplication_table">
-        
+        <p>Write a PHP script that prints the multiplication table of 7 from 1 to 10 using a loop.</p>
+        <?php
+            for($i=1;$i<10;$i++){
+                
+            }
+        ?>
     </div>
 
     <!-- Factorial of a Number -->
