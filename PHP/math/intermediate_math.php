@@ -30,7 +30,11 @@
         ?>
         <table>
             <tbody>
-                <?php echo "<tr> <td>7</td><td>x</td><td>$i</td><td>=</td><td>7 * $i</td></tr>";?>
+                <?php 
+                    for($i=1;$i<=10;$i++){
+                        echo "<tr> <td>7</td><td>x</td><td>$i</td><td>=</td><td>7 * $i</td></tr>";
+                    }
+                ?>
             </tbody>
         </table>
     </div>
