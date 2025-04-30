@@ -27,15 +27,10 @@
             for($i=1;$i<=10;$i++){
                 echo "7 x $i = ". 7 * $i ."<br>";
             }
-
-            // as a table
-            for($i=1;$i<=10;$i++){
-                echo 
-            }
         ?>
         <table>
             <tbody>
-                tr
+                <?php echo "<tr> <td>7</td><td>x</td><td>$i</td><td>=</td><td>7 * $i</td></tr>";?>
             </tbody>
         </table>
     </div>
