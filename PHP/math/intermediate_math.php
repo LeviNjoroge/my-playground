@@ -23,7 +23,7 @@
     <div class="multiplication_table">
         <p>Write a PHP script that prints the multiplication table of 7 from 1 to 10 using a loop.</p>
         <?php
-            for($i=1;$i<=10;$i++){
+            for($i=1;$i<=1000;$i++){
                 echo "7 x $i = ". 7 * $i ."<br>";
             }
         ?>
