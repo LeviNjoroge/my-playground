@@ -52,7 +52,8 @@
     <p>Here are the Students enrolled in the school</p>
     <p>Wanna search? <br>
         <form action="mods_q.php">
-            <input type="search" name="name" id="name"> <br>
+            <input type="search" name="name" id="name">
+            <input type="submit" value="Search"> <br>
         </form>
     </p>
     <table class="students_table">
