@@ -49,6 +49,12 @@
     </style>
 </head>
 <body>
+    <p>Here are the Students enrolled in the school</p>
+    <p>Wanna search? <br>
+        <form action="mods_q.php">
+            <input type="search" name="name" id="name"> <br>
+        </form>
+    </p>
     <table class="students_table">
         <thead>
             <tr>
@@ -73,14 +79,6 @@
                               </tr>";
                     }
                 ?>
-                <!-- <tr>
-                    <td>S001</td>
-                    <td>Lee</td>
-                    <td>Kin</td>
-                    <td>M</td>
-                    <td>120,000</td>
-                    <td>Applied Comp</td>
-                </tr> -->
         </tbody>
     </table>
 </body>
