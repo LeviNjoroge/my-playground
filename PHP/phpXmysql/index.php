@@ -13,7 +13,7 @@
     <table>
         <thead>
             <tr>
-                <tr>Registration Number</th>
+                <th>Registration Number</th>
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Gender</th>
