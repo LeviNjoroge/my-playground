@@ -8,9 +8,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soen 260 School</title>
+    <style>
+        .students_table{
+            
+        }
+    </style>
 </head>
 <body>
-    <table>
+    <table class="students_table">
         <thead>
             <tr>
                 <th>Registration Number</th>
