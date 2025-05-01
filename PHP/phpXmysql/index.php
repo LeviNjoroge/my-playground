@@ -12,17 +12,31 @@
 <body>
     <table>
         <thead>
-            <th>
-                <td>Registration Number</td>
-                <td>First Name</td>
-                <td>Last Name</td>
-                <td>Gender</td>
-                <td>Fee Paid</td>
-                <td>Course</td>
-            </th>
+            <tr>
+                <tr>Registration Number</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Gender</th>
+                <th>Fee Paid</th>
+                <th>Course</th>
+            </tr>
         </thead>
         <tbody>
-            
+                <!-- <?php
+                    while ($row = mysqli_fetch_assoc($fetch_all_result)) {
+                        echo "<tr>
+                                <td>{$row['regno']}</td>
+                                <td>{$row['fname']}</td>
+                                <td>{$row['lname']}</td>
+                                <td>{$row['gender']}</td>
+                                <td>{$row['fee_paid']}</td>
+                                <td>{$row['coursename']}</td>
+                              </tr>";
+                    }
+                ?> -->
+                <tr>
+                    <td></td>
+                </tr>
         </tbody>
     </table>
 </body>
