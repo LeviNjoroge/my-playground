@@ -26,6 +26,14 @@
         .students_table td, .students_table th{
             padding: 12px 15px;
         }
+
+        .students_table tbody tr{
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .students_table tbody tr:nth-of-type(even){
+            background-color: #f3f3f3;
+        }
     </style>
 </head>
 <body>
