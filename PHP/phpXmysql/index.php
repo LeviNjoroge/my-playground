@@ -14,6 +14,9 @@
             border-collapse: collapse;
             font-size: 0.9em;
             min-width: 720px;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
         }
 
         .students_table thead tr{
@@ -33,6 +36,15 @@
 
         .students_table tbody tr:nth-of-type(even){
             background-color: #f3f3f3;
+        }
+
+        .students_table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        .students_table tbody tr.active-row{
+            font-weight: bold;
+            color: #009879;
         }
     </style>
 </head>
