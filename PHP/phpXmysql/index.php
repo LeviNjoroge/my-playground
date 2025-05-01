@@ -35,7 +35,12 @@
                     }
                 ?> -->
                 <tr>
-                    <td></td>
+                    <td>S001</td>
+                    <td>Lee</td>
+                    <td>Kin</td>
+                    <td>M</td>
+                    <td>120,000</td>
+                    <td>Applied Comp</td>
                 </tr>
         </tbody>
     </table>
