@@ -41,8 +41,9 @@
 
     <!-- Factorial of a Number -->
     <div class="factorial_of_a_number">
+        <br> <br> <br>
         <form action="">
-            <input type="number" name="num" id="num"> <br>
+            <input type="number" name="num" id="num" placeholder="Enter the number that you want to find the factorial of..."> <br>
             <input type="submit" value="Find the factorial"> <br>
         </form>
 
