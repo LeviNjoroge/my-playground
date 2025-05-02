@@ -45,16 +45,8 @@
             <input type="number" name="num" id="num"> <br>
             <input type="submit" value="Find the factorial"> <br>
         </form>
-    </div>
 
-    <!-- Sum of Digits -->
-     <div class="sum_of_numbers">
-
-     </div>
-</body>
-</html>
-
-<?php
+        <?php
             if($_GET["num"]){
                 $num = $_GET["num"];
                 $result = 1;
@@ -69,3 +61,11 @@
                 echo $result;
             }
         ?>
+    </div>
+
+    <!-- Sum of Digits -->
+     <div class="sum_of_numbers">
+
+     </div>
+</body>
+</html>
