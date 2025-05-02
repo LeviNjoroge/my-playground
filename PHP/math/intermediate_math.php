@@ -50,7 +50,15 @@
             if($_GET["num"]){
                 $num = $_GET["num"];
                 $result = 1;
-                if($num == 0)
+                if($num == 0){
+                    $result = 1;
+                }
+                else{
+                    for($x=1;$x<=$num;$x++){
+                        $result*=$x;
+                    }
+                }
+                echo $result;
             }
         ?>
     </div>
