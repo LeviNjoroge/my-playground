@@ -67,7 +67,7 @@
     <!-- Sum of Digits -->
      <div class="sum_of_numbers">
             <form action="">
-                
+                <input type="number" name="" id="">
             </form>
      </div>
 </body>
