@@ -68,7 +68,7 @@
      <div class="sum_of_numbers">
             <form action="">
                 <input type="number" name="l_num" id="l_num">
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit"> <br>
             </form>
      </div>
 </body>
