@@ -71,7 +71,7 @@
                 <input type="submit" value="Submit"> <br>
             </form>
             <?php 
-                
+                if($_GET("l_num"))
             ?>
      </div>
 </body>
