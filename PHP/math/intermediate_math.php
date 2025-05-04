@@ -67,13 +67,11 @@
     <!-- Sum of Digits -->
      <div class="sum_of_numbers">
             <form action="">
-                <input type="number" name="l_num" id="l_num">
+                <input type="number" name="l_num" id="l_num" placeholder="Enter the ">
                 <input type="submit" value="Submit"> <br>
             </form>
-            <?php 
-                if($_GET("l_num")){
-                    
-                }
+            <?php
+            
             ?>
      </div>
 </body>
