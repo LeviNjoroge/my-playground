@@ -67,7 +67,7 @@
     <!-- Sum of Digits -->
      <div class="sum_of_numbers">
             <form action="">
-                <input type="number" name="l_num" id="l_num" placeholder="Enter the number of nu">
+                <input type="number" name="l_num" id="l_num" placeholder="How many numbers?...">
                 <input type="submit" value="Submit"> <br>
             </form>
             <?php
