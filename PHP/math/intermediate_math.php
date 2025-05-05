@@ -73,7 +73,14 @@
             <?php
                 if($_GET["l_num"]){
                     $num_of_nums = $_GET["l_num"];
-                    for($i = 1; $i <= $num_of_nums)
+                    for($i = 1; $i <= $num_of_nums; $i++){
+                        echo '<form>
+                            <input type="number" name="NUM" id="NUM" placeholder="Enter the '.$i.' number...">
+                            <input type="submit" value="Submit"> <br>
+                            </form>';
+                        
+                        
+                    }
                 }
             ?>
      </div>
