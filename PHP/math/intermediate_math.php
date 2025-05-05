@@ -73,7 +73,7 @@
             <?php
                 if($_GET["l_num"]){
                     $num_of_nums = $_GET["l_num"];
-                    for($i = 0  )
+                    for($i = 1; $i <= $num_of_nums)
                 }
             ?>
      </div>
