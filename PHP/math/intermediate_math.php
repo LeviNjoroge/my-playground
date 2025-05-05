@@ -71,7 +71,10 @@
                 <input type="submit" value="Submit"> <br>
             </form>
             <?php
-                
+                if($_GET["l_num"]){
+                    $num_of_nums = $_GET["l_num"];
+                    
+                }
             ?>
      </div>
 </body>
