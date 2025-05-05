@@ -81,7 +81,7 @@
                             </form>';
                         $sum += $_GET["NUM"];
                     }
-                    
+                    echo "The sum is: {$sum}";
                 }
             ?>
      </div>
