@@ -23,6 +23,12 @@
 <body>
     <div class="isPrime">
         <!-- To check if a number is prime-->
+
     </div>
+
+    <div class="amstrong_numbers">
+        <!-- Find All Armstrong Numbers Between 100 and 999 -->
+    </div>
+
 </body>
 </html>
