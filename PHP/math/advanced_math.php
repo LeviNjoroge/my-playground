@@ -32,7 +32,7 @@
     </div>
 
     <div class="quadrilateral_equation">
-        
+    <!-- Given coefficients $a = 1, $b = -3, and $c = 2, write a PHP script to solve the quadratic equation using the quadratic formula. -->
     </div>
 
 </body>
