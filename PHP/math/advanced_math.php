@@ -22,7 +22,7 @@
 </head>
 <body>
     <div class="isPrime">
-        <
+        <!-- To check if a number is prime-->
     </div>
 </body>
 </html>
