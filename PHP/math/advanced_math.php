@@ -37,8 +37,8 @@
     </div>
 
     <div class="gcd">
-        <!-- A PHP Script to find the GCD of two numbers-->
-         
+        <!-- A PHP function to find the GCD of two numbers-->
+
     </div>
 
 </body>
