@@ -27,6 +27,9 @@
             <input type="number" name="prime" id="prime" placeholder="Enter possibly prime number">
             <input type="submit" value="Check!"> <br>
         </form>
+        <?php
+            
+        ?>
     </div>
 
     <div class="amstrong_numbers">
