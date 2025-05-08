@@ -23,7 +23,7 @@
 <body>
     <div class="isPrime">
         <!-- To check if a number is prime-->
-
+        <form action=""></form>
     </div>
 
     <div class="amstrong_numbers">
