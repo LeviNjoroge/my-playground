@@ -37,7 +37,7 @@
     </div>
 
     <div class="gcd">
-        <!-- A PHP -->
+        <!-- A PHP Script to fing t-->
     </div>
 
 </body>
