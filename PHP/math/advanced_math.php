@@ -24,8 +24,8 @@
     <div class="isPrime">
         <!-- To check if a number is prime-->
         <form action="">
-            <input type="number" name="prime" id="prime">
-            <input type="submit" value="Check!">
+            <input type="number" name="prime" id="prime" placeholder="Enter possibly prime number">
+            <input type="submit" value="Check!"> <br>
         </form>
     </div>
 
