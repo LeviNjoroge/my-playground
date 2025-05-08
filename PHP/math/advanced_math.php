@@ -37,7 +37,7 @@
     </div>
 
     <div class="gcd">
-        <!---->
+        <!-- A PHP -->
     </div>
 
 </body>
