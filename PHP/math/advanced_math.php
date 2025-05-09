@@ -29,7 +29,9 @@
         </form>
         <?php
             $is_prime = $_GET["prime"];
-            if($_GET["prime"])
+            if($_GET["prime"]){
+                
+            }
         ?>
     </div>
 
