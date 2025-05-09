@@ -28,7 +28,7 @@
             <input type="submit" value="Check!"> <br>
         </form>
         <?php
-            
+            $is_prime = $_GET[];
         ?>
     </div>
 
