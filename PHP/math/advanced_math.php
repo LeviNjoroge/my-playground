@@ -40,7 +40,7 @@
                     }
                 }
                 if($prime_count<=2){
-                    echo "<br>It is a prime number";
+                    echo "<br>It IS a prime number";
                 }
                 else{
                     echo "<br>It is NOT a prime number";
