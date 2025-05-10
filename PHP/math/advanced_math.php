@@ -28,9 +28,11 @@
             <input type="submit" value="Check!"> <br>
         </form>
         <?php
-            $is_prime = $_GET["prime"];
             if($_GET["prime"]){
-                
+                $num = $_GET["prime"];
+                for($i=2;$i<=$num;$i++){
+
+                }
             }
         ?>
     </div>
