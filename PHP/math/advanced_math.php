@@ -39,7 +39,9 @@
                 if($prime_count<=2){
                     echo "{$num} is a prime number";
                 }
-                es
+                else{
+                    
+                }
             }
         ?>
     </div>
