@@ -36,7 +36,9 @@
                         $prime_count +=1;
                     }
                 }
-                if()
+                if($prime_count<=2){
+                    
+                }
             }
         ?>
     </div>
