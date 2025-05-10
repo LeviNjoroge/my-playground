@@ -30,8 +30,11 @@
         <?php
             if($_GET["prime"]){
                 $num = $_GET["prime"];
+                $prime_count = 0;
                 for($i=2;$i<=$num;$i++){
-
+                    if($num % $i == 0){
+                        
+                    }
                 }
             }
         ?>
