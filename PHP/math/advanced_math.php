@@ -35,15 +35,15 @@
                 echo "Since {$num} is divisible by: <br>";
                 for($i=2;$i<=$num;$i++){
                     if($num % $i == 0){
-                        echo $num;
+                        echo $i."<br>";
                         $prime_count +=1;
                     }
                 }
                 if($prime_count<=2){
-                    echo "{$num} is a prime number";
+                    echo "<br>It is a prime number";
                 }
                 else{
-                    echo "{$num} is NOT a prime number";
+                    echo "<br>It is NOT a prime number";
                 }
             }
         ?>
