@@ -36,6 +36,7 @@
                         $prime_count +=1;
                     }
                 }
+                if()
             }
         ?>
     </div>
