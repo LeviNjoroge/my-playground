@@ -43,7 +43,7 @@
                     echo "<br>It IS a prime number";
                 }
                 else{
-                    echo "<br>It is NOT a prime number";
+                    echo "<br>It IS NOT a prime number";
                 }
             }
         ?>
