@@ -40,7 +40,7 @@
                     echo "{$num} is a prime number";
                 }
                 else{
-                    
+                    echo "{$num} is NOT a prime number";
                 }
             }
         ?>
