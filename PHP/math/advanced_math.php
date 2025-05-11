@@ -74,6 +74,7 @@
                 $c = $_GET["c"];
                 $x1 = (-($b)+sqrt((pow($b,2)-4*$a*$c)))/2*$a;
                 $x2 = (-($b)-sqrt((pow($b,2)-4*$a*$c)))/2*$a;
+                echo "x is {$x1} or {$x2}";
             }
         ?>
     </div>
@@ -84,4 +85,4 @@
     </div>
 
 </body>
-</html>
+</html
