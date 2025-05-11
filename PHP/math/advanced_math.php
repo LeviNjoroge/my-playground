@@ -64,8 +64,12 @@
             <input type="number" name="a" id="a" placeholder="Enter a"> <br>
             <input type="number" name="b" id="b" placeholder="Enter b"> <br>
             <input type="number" name="c" id="c" placeholder="Enter c"> <br>
-            <input type="submit" value="Solve for x!">
+            <input type="submit" value="Solve for x!"> <br> <br>
         </form>
+
+        <?php
+            
+        ?>
     </div>
 
     <div class="gcd">
