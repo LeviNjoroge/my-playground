@@ -68,7 +68,13 @@
         </form>
 
         <?php
-            
+            if(isset($_GET["a"]) && isset($_GET["b"]) && isset($_GET["c"])){
+                $a = $_GET["a"];
+                $b = $_GET["b"];
+                $c = $_GET["c"];
+                $x1 = (-($b)+sqrt((pow($b,2)-4*$a*$c)))/2*$a;
+                $x2 = (-($b)-sqrt((pow($b,2)-4*$a*$c)))/2*$a;
+            }
         ?>
     </div>
 
