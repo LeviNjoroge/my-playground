@@ -58,6 +58,7 @@
         <!-- Given coefficients $a = 1, $b = -3, and $c = 2, write a PHP script to solve the quadratic equation using the quadratic formula. -->
          <!--
             using the formulae:
+                x = (-b+-sqrt())
          -->
     </div>
 
