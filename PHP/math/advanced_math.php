@@ -58,8 +58,14 @@
         <!-- Given coefficients $a = 1, $b = -3, and $c = 2, write a PHP script to solve the quadratic equation using the quadratic formula. -->
          <!--
             using the formulae:
-                x = (-b+-sqrt())
+                x = (-b+-sqrt(b^2-4ac))/2a
          -->
+        <form action="">
+            <input type="number" name="a" id="a" placeholder="Enter a"> <br>
+            <input type="number" name="b" id="b" placeholder="Enter b"> <br>
+            <input type="number" name="c" id="c" placeholder="Enter c"> <br>
+            <input type="submit" value="Solve for x!">
+        </form>
     </div>
 
     <div class="gcd">
