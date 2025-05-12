@@ -68,33 +68,33 @@
         </form>
 
         <?php
-            // if(isset($_GET["a"]) && isset($_GET["b"]) && isset($_GET["c"])){
-            //     $a = $_GET["a"];
-            //     $b = $_GET["b"];
-            //     $c = $_GET["c"];
-            //     $x1 = (-($b)+sqrt((pow($b,2)-4*$a*$c)))/(2*$a);
-            //     $x2 = (-($b)-sqrt((pow($b,2)-4*$a*$c)))/(2*$a);
-            //     echo "x is {$x1} or {$x2}";
-            // }
-
-
-            if (isset($_GET["a"]) && isset($_GET["b"]) && isset($_GET["c"])) {
+            if(isset($_GET["a"]) && isset($_GET["b"]) && isset($_GET["c"])){
                 $a = $_GET["a"];
                 $b = $_GET["b"];
                 $c = $_GET["c"];
-
-                $discriminant = pow($b, 2) - 4 * $a * $c;
-
-                if ($a == 0) {
-                    echo "This is not a quadratic equation.";
-                } elseif ($discriminant < 0) {
-                    echo "No real roots.";
-                } else {
-                    $x1 = (-$b + sqrt($discriminant)) / (2 * $a);
-                    $x2 = (-$b - sqrt($discriminant)) / (2 * $a);
-                    echo "x is {$x1} or {$x2}";
-                }
+                $x1 = (-($b)+sqrt((pow($b,2)-4*$a*$c)))/(2*$a);
+                $x2 = (-($b)-sqrt((pow($b,2)-4*$a*$c)))/(2*$a);
+                echo "x is {$x1} or {$x2}";
             }
+
+
+            // if (isset($_GET["a"]) && isset($_GET["b"]) && isset($_GET["c"])) {
+            //     $a = $_GET["a"];
+            //     $b = $_GET["b"];
+            //     $c = $_GET["c"];
+
+            //     $discriminant = pow($b, 2) - 4 * $a * $c;
+
+            //     if ($a == 0) {
+            //         echo "This is not a quadratic equation.";
+            //     } elseif ($discriminant < 0) {
+            //         echo "No real roots.";
+            //     } else {
+            //         $x1 = (-$b + sqrt($discriminant)) / (2 * $a);
+            //         $x2 = (-$b - sqrt($discriminant)) / (2 * $a);
+            //         echo "x is {$x1} or {$x2}";
+            //     }
+            // }
         ?>
     </div>
 
