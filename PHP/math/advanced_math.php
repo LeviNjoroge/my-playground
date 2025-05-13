@@ -81,7 +81,7 @@
 
     <div class="gcd">
         <!-- A PHP function to find the GCD of two numbers-->
-
+            <form action=""></form>
     </div>
 
 </body>
