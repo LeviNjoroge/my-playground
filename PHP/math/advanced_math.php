@@ -97,7 +97,7 @@
                     // compare the elements in the arrays and multiply the commons, 
                     // the product is the gcd
 
-                    
+                    $prime = 0;
                     
                 }
             ?>
