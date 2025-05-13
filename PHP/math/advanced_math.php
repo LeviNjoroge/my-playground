@@ -83,7 +83,8 @@
         <!-- A PHP function to find the GCD of two numbers-->
             <form action="">
                 <input type="number" name="num1" id="num1"> <br>
-
+                <input type="number" name="num1" id="num1"> <br>
+                <input type="submit" value="Find the GCD"> <br>
             </form>
     </div>
 
