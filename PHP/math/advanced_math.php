@@ -86,6 +86,10 @@
                 <input type="number" name="num1" id="num1"> <br>
                 <input type="submit" value="Find the GCD"> <br>
             </form>
+
+            <?php 
+            
+            ?>
     </div>
 
 </body>
