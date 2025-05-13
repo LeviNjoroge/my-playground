@@ -97,8 +97,13 @@
                     // compare the elements in the arrays and multiply the commons, 
                     // the product is the gcd
 
-                    $prime = 0;
-                    
+                    $prime = (1);
+                    for($i=1;$i<=$num1;$i++){
+                        if($num % $i == 0){
+                            $prime[] = $i;
+                        }
+                    }
+                    echo $prime;
                 }
             ?>
     </div>
