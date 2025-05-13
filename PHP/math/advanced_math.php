@@ -92,6 +92,12 @@
                     $num1 = $_GET["num1"];
                     $num2 = $_GET["num2"];
 
+                    // approach:
+                    // find the divisors of both the numbers and store them in arrays, 
+                    // compare the elements in the arrays and multiply the commons, 
+                    // the product is the gcd
+
+                    
                     
                 }
             ?>
