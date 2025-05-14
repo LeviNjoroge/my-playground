@@ -98,7 +98,7 @@
                     // the product is the gcd
 
                     for($i=1;$i<=$num1;$i++){
-                        if($num % $i == 0){
+                        if($num1 % $i == 0){
                             $prime[] = $i;
                         }
                     }
