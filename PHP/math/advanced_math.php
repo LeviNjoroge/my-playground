@@ -102,9 +102,9 @@
                             $prime1[] = $i;
                         }
                     }
-                    for($i=1;$i<=$num1;$i++){
-                        if($num1 % $i == 0){
-                            $prime1[] = $i;
+                    for($i=1;$i<=$num2;$i++){
+                        if($num2 % $i == 0){
+                            $prime2[] = $i;
                         }
                     }
                     
