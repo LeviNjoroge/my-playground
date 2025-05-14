@@ -117,7 +117,7 @@
                         }
                     }
                     
-                    echo
+                    echo "The GCD is: ".$gcd;
                 }
             ?>
     </div>
