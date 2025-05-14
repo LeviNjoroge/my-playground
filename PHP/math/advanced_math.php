@@ -108,7 +108,7 @@
                         }
                     }
                     
-                    $gcd = 0;
+                    $gcd = 1;
                     for($i=0;$i<count($prime1);$i++){
                         for($j=0;$j<count($prime2);$j++){
                             if($prime2[$j]==$prime1[$i]){
