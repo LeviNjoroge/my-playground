@@ -109,7 +109,9 @@
                     }
                     
                     for($i=0;$i<count($prime1);$i++){
-                    0
+                        for($j=0;$j<count($prime2);$j++){
+                            
+                        }
                     }
                     
                 }
