@@ -110,7 +110,9 @@
                     
                     for($i=0;$i<count($prime1);$i++){
                         for($j=0;$j<count($prime2);$j++){
-                            
+                            if($prime2[$j]==$prime1[$i]){
+                                echo $prime2[$j];
+                            }
                         }
                     }
                     
