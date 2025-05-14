@@ -113,6 +113,7 @@
                         for($j=0;$j<count($prime2);$j++){
                             if($prime2[$j]==$prime1[$i]){
                                 $gcd *= $prime2[$j];
+                                echo "Found: {$prime2[$j]}";
                             }
                         }
                     }
