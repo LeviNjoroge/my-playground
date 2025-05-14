@@ -99,10 +99,15 @@
 
                     for($i=1;$i<=$num1;$i++){
                         if($num1 % $i == 0){
-                            $prime[] = $i;
+                            $prime1[] = $i;
                         }
                     }
-                    echo $prime[1];
+                    for($i=1;$i<=$num1;$i++){
+                        if($num1 % $i == 0){
+                            $prime1[] = $i;
+                        }
+                    }
+                    
                 }
             ?>
     </div>
