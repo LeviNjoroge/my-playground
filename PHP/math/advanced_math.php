@@ -97,7 +97,7 @@
                     // compare the elements in the arrays and multiply the commons, 
                     // the product is the gcd
 
-                    hgj
+                    
                     for($i=1;$i<=$num1;$i++){
                         if($num % $i == 0){
                             $prime[] = $i;
