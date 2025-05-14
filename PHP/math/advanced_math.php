@@ -102,7 +102,7 @@
                             $prime[] = $i;
                         }
                     }
-                    echo $prime;
+                    echo $prime[1];
                 }
             ?>
     </div>
