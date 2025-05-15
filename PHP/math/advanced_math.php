@@ -121,6 +121,7 @@
                     echo "The GCD is: ".$gcd;
                 }
             ?>
+            <!--Not such a great success-->
     </div>
 
 </body>
