@@ -58,7 +58,9 @@
                 number of digits in the number. 
                 
                 For example, 153 is an Armstrong number because 
-                1^3 + 5^3 + 3^3 = 153. Armstrong numbers are also known as narcissistic numbers. 
+                1^3 + 5^3 + 3^3 = 153. 
+                
+                Armstrong numbers are also known as narcissistic numbers. 
         -->
     </div>
 
