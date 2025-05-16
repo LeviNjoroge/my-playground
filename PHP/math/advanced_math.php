@@ -51,7 +51,10 @@
 
     <div class="amstrong_numbers">
         <!-- Find All Armstrong Numbers Between 100 and 999 -->
-
+        <!--
+            def:
+                
+        -->
     </div>
 
     <div class="quadrilateral_equation">
