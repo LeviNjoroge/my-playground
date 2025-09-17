@@ -1,5 +1,5 @@
 <?php
-
+// this will output 
 ?>
 
 <!DOCTYPE html>
