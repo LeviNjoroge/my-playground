@@ -1,5 +1,5 @@
 <?php
-// this will output 
+// this will output the results after login
 ?>
 
 <!DOCTYPE html>
