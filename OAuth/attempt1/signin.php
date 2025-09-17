@@ -1,5 +1,5 @@
 <?php
-// this will contain
+// this will contain the script for loging in
 ?>
 
 <!DOCTYPE html>
